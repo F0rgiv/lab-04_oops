@@ -1,0 +1,33 @@
+body {
+    padding: 15px;
+    max-width: 900px;
+    margin: auto;
+}
+
+body>* {
+    background-color: lightgray;
+    outline: solid 1px gray;
+}
+
+article>div {
+    background-color: lightgray;
+    outline: solid 1px gray;
+}
+
+@media screen and (min-width: 550px) {
+    body>* {
+        background-color:cadetblue
+    }
+    article>div {
+        background-color: aqua;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    article>div {
+        background-color: mistyrose;
+    }
+    body>* {
+        background-color: mistyrose;
+    }
+}
